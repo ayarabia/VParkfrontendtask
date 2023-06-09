@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/VParkfrontendtask/static/css/main.e802109b.css",
+    "main.js": "/VParkfrontendtask/static/js/main.bdd3777e.js",
+    "static/css/540.a7c124ca.chunk.css": "/VParkfrontendtask/static/css/540.a7c124ca.chunk.css",
+    "static/js/540.0588b417.chunk.js": "/VParkfrontendtask/static/js/540.0588b417.chunk.js",
+    "static/js/313.24da7294.chunk.js": "/VParkfrontendtask/static/js/313.24da7294.chunk.js",
+    "static/js/743.2dcb44e2.chunk.js": "/VParkfrontendtask/static/js/743.2dcb44e2.chunk.js",
+    "static/js/833.cae15020.chunk.js": "/VParkfrontendtask/static/js/833.cae15020.chunk.js",
+    "static/js/787.28cb0dcd.chunk.js": "/VParkfrontendtask/static/js/787.28cb0dcd.chunk.js",
+    "static/js/618.067b30c1.chunk.js": "/VParkfrontendtask/static/js/618.067b30c1.chunk.js",
+    "static/media/viwe.png": "/VParkfrontendtask/static/media/viwe.677522af50fc8d0607b4.png",
+    "static/media/setting.png": "/VParkfrontendtask/static/media/setting.0ed49b13a217ab8df95b.png",
+    "static/media/avatar.png": "/VParkfrontendtask/static/media/avatar.12ea4f36f0d28be91e34.png",
+    "static/media/vehicle.svg": "/VParkfrontendtask/static/media/vehicle.6b1d2ca1fa6f856afbd2848cafafe60f.svg",
+    "static/media/help.jpg": "/VParkfrontendtask/static/media/help.94569cdd4c88d3acffc5.jpg",
+    "static/media/question.png": "/VParkfrontendtask/static/media/question.3ed2701fab2ede29b53f.png",
+    "static/media/img1.svg": "/VParkfrontendtask/static/media/img1.5620e07fc44b57bbbff1db9b5913bd31.svg",
+    "static/media/img2.svg": "/VParkfrontendtask/static/media/img2.eaaea549c05cf5e092d25a7c95b68b64.svg",
+    "static/media/camera.svg": "/VParkfrontendtask/static/media/camera.ba6ec9fe96377c2a2452dc474c684ee7.svg",
+    "static/media/halfCircle.svg": "/VParkfrontendtask/static/media/halfCircle.2a6b6c505aec3705241224e8610b34be.svg",
+    "static/media/Trash.svg": "/VParkfrontendtask/static/media/Trash.d0cca46218fe64549fab8a43dce04a81.svg",
+    "static/media/write.svg": "/VParkfrontendtask/static/media/write.79e10597f7dc9bba6e7f57d07d5d7602.svg",
+    "index.html": "/VParkfrontendtask/index.html",
+    "static/media/Layer.svg": "/VParkfrontendtask/static/media/Layer.855db74c7d4553338d8e72460decaef8.svg",
+    "static/media/circle.svg": "/VParkfrontendtask/static/media/circle.92b7010561fade600501a234dcdabdc4.svg",
+    "main.e802109b.css.map": "/VParkfrontendtask/static/css/main.e802109b.css.map",
+    "main.bdd3777e.js.map": "/VParkfrontendtask/static/js/main.bdd3777e.js.map",
+    "540.a7c124ca.chunk.css.map": "/VParkfrontendtask/static/css/540.a7c124ca.chunk.css.map",
+    "540.0588b417.chunk.js.map": "/VParkfrontendtask/static/js/540.0588b417.chunk.js.map",
+    "313.24da7294.chunk.js.map": "/VParkfrontendtask/static/js/313.24da7294.chunk.js.map",
+    "743.2dcb44e2.chunk.js.map": "/VParkfrontendtask/static/js/743.2dcb44e2.chunk.js.map",
+    "833.cae15020.chunk.js.map": "/VParkfrontendtask/static/js/833.cae15020.chunk.js.map",
+    "787.28cb0dcd.chunk.js.map": "/VParkfrontendtask/static/js/787.28cb0dcd.chunk.js.map",
+    "618.067b30c1.chunk.js.map": "/VParkfrontendtask/static/js/618.067b30c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e802109b.css",
+    "static/js/main.bdd3777e.js"
+  ]
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/833.cae15020.chunk.js","mappings":"iIAQA,UANA,WACE,OACEA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,SAET,C","sources":["pages/Map/index.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nfunction Plans() {\r\n  return (\r\n    <div>Plans</div>\r\n  )\r\n}\r\n\r\nexport default Plans"],"names":["_jsx","children"],"sourceRoot":""}
