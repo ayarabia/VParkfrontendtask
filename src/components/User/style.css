@@ -1,0 +1,25 @@
+.user-wrraper {
+  background-color: #ffffff;
+  position: absolute;
+  top: 39px;
+  right: 0px;
+  width: 100%;
+}
+.user-wrraper .item {
+  padding: 10px;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-wrraper .item .titel {
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #6d7485;
+  font-size: 10px;
+  font-weight: 500;
+  white-space: nowrap;
+  margin: 0 10px;
+}

@@ -1,0 +1,45 @@
+.tools-container {
+  background-image: url("../../assets/images/viwe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 40px;
+  position: relative;
+  margin-top: 40px;
+}
+.tools-container h4 {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 19px;
+  margin: 0;
+}
+.tools-container h5 span {
+  color: #f9b419;
+}
+.tools-container p {
+  font-size: 15px;
+  color: #6d7485;
+  margin: 0;
+  line-height: 1.5;
+}
+.tools-container img {
+  height: 100%;
+  position: absolute;
+  right: 40px;
+  bottom: 0;
+  object-fit: cover;
+  height: 200px;
+}
+/* Medium */
+@media (max-width: 767px) {
+  .tools-container {
+    padding: 5px 30px;
+    padding-bottom: 40px;
+  }
+  .tools-container h4 {
+    margin: 40px 0;
+  }
+  .tools-container img {
+    display: none;
+  }
+}

@@ -1,0 +1,51 @@
+.notfication {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 330px;
+  z-index: 9999;
+}
+.notfication .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+.notfication .item .bible svg {
+  color: #ffaf00 !important;
+  font-size: 28px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f6f8fd;
+  margin-right: 15px;
+}
+.notfication .item .titel {
+  color: #6d7485;
+  font-size: 10px;
+  font-weight: 900;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  margin-right: 10px;
+}
+.notfication .item .description {
+  color: #6d7485;
+  display: block;
+  font-size: 10px;
+  width: 150px;
+  margin: 0;
+}
+.notfication .item .time {
+  color: #5a89d8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.notfication .item .time a {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}

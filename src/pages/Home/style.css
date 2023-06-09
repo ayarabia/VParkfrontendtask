@@ -1,0 +1,31 @@
+.home{
+    background-color: #E7F0F9; 
+    padding:10px 40px ;
+    border-radius:30px;
+  }
+.home .titel{
+    color: #081836;
+    font-size: 24px;
+    font-weight: 500;
+}
+.home  .home-container {
+
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+ 
+
+ }
+
+  @media (max-width: 767px) {
+    .home{
+      padding: 20px;
+     }
+    .home  .home-container {
+      grid-template-columns: minmax(200px, 1fr);
+      margin-left: 10px;
+      margin-right: 10px;
+      gap: 10px;
+    }
+     
+  }

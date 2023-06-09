@@ -1,0 +1,147 @@
+.form {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.form .title,
+.form .generat,
+.form .generat div:first-child,
+.form .points,
+.form .btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form .title h5,
+.form .inptus h5,
+.form .generat h5 {
+  margin: 0;
+  color: #65769c;
+  margin-right: 10px;
+}
+.form .title svg,
+.form .generat svg {
+  color: #b5becf;
+  border: 1px solid #b5becf;
+  border-radius: 50%;
+}
+.form .text {
+  color: #65769c;
+  margin-top: 2px;
+  width: 390px;
+}
+
+.form .inptus {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 25px 0;
+}
+.form .inptus select option {
+  color: #65769c;
+}
+.form .inptus input,
+.form .inptus select {
+  background-color: #f6f8fd;
+  border: none;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.form .inptus input {
+  margin-right: 20px;
+}
+.form .generat .image {
+  background-color: #0087cc;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form .generat {
+  justify-content: space-between;
+}
+.form .generat .image img {
+  width: 20px;
+  height: 20px;
+}
+.form .points,
+.form .btns {
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.form .points div {
+  background-color: #f6f8fe;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-align: center;
+}
+.form .points div p {
+  color: #65769c;
+}
+.form .points div button,
+.form .btns button {
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.green {
+  color: #00b76e;
+  border-color: #00b76e;
+}
+.yellow {
+  color: #ff9b00;
+  border-color: #ff9b00;
+}
+.red {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+.form .btns button {
+  padding: 10px 50px;
+}
+.form .btns .save {
+  background-color: #f9b317;
+  color: #fff;
+}
+/* Medium */
+@media (max-width: 992px) {
+  .form {
+    width: 100%;
+    padding: 25px;
+  }
+  .form .inptus {
+    flex-direction: column;
+  }
+  .form .inptus input,
+  .form .inptus h5 {
+    margin-right: 0;
+  }
+  .form .generat .image {
+    margin-left: 10px;
+    padding: 2px;
+  }
+  .form .generat .image img {
+    width: 10px;
+    height: 10px;
+  }
+  .form .inptus div:nth-child(2) {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .form .points div {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .form .btns button {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .form .text {
+    width: fit-content;
+  }
+}

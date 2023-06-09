@@ -1,0 +1,26 @@
+.dropdown {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.menu {
+  width: 100%;
+  z-index: 9999;
+  position: absolute;
+  top: 88px;
+  right: 25px;
+  padding: 10px 0;
+  background-color: #f6f8fe;
+}
+.rotate {
+  margin-top: 1px;
+  transform: rotate(180deg);
+}
+@media (max-width: 767px) {
+  .menu {
+    top: 69px;
+    right: 0;
+  }
+}

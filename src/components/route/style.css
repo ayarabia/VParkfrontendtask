@@ -1,0 +1,55 @@
+.route {
+  border-radius: 15px;
+  padding: 40px;
+  position: relative;
+  margin-top: 40px;
+  background-color: #fff;
+}
+.route h4 {
+  color: #0c1834;
+}
+.route-container {
+  background-color: #1785c61a;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+}
+.route-container .tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  position: absolute;
+  top: 280px;
+  left: 40%;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.route .tools img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.route .tools .write {
+  margin: 0 20px;
+  border-left: 1px solid #c3c3c366;
+  border-right: 1px solid #c3c3c366;
+  padding: 0 20px;
+}
+.route .tools .triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #fff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 767px) {
+  .route .tools {
+    display: none;
+  }
+}

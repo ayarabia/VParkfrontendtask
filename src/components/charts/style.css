@@ -1,0 +1,83 @@
+.charts {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.charts .title {
+  color: #081836;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 120px;
+}
+.charts .active,
+.charts .inactive {
+  display: flex;
+  align-items: center;
+}
+.charts .active div,
+.charts .inactive div {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.charts .active div {
+  background-color: #1785c6;
+}
+.charts .inactive div {
+  background-color: #bfe7ff;
+}
+.charts .active p,
+.charts .inactive p {
+  color: #6d7485;
+  font-size: 16px;
+  margin: 0;
+}
+.charts .images {
+  margin-right: 20px;
+  position: relative;
+}
+
+.charts .images img:nth-child(2) {
+  position: absolute;
+  top: -43px;
+  left: -30px;
+}
+.charts .ratio div:first-child {
+  margin-bottom: 40px;
+}
+.charts .ratio .num {
+  color: #6d7485;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.charts .ratio .text {
+  color: #6d7485;
+  font-size: 14px;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media (max-width: 767) {
+  .charts {
+    flex-direction: column;
+  }
+  .charts .title {
+    margin-bottom: 20px;
+  }
+  .charts .images {
+    margin: 45px 0;
+  }
+  .charts .ratio div:first-child {
+    margin-bottom: 10px;
+  }
+}

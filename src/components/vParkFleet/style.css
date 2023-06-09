@@ -1,0 +1,65 @@
+.vpark {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+.vpark .titel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.vpark .titel .icons img {
+  width: 25px;
+  height: 20px;
+}
+
+.vpark .titel .icons img:first-child {
+  margin-right: 15px;
+}
+.vpark .titel p {
+  color: #081836;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+.vpark .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f8fe;
+  padding: 0px 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.vpark .image {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 500;
+  color: #0c1834;
+}
+
+.vpark .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+.test {
+  position: absolute;
+  top: 62px;
+  right: -13px;
+  padding: 10px 0;
+  background-color: #f6f8fe;
+}
+@media (max-width: 767px) {
+  .vpark .item {
+    padding: 5px;
+  }
+  .vpark .image img {
+    width: 50px;
+    height: 50px;
+  }
+}
