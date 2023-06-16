@@ -2,15 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 15px;
+  padding: 0;
+  width: 100%;
 }
 .dropdownItems .item {
-  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-right: 14px;
   background-color: transparent;
+  padding: 0 10px;
 }
 .dropdownItems .item p {
   font-size: 12px;
@@ -48,5 +48,8 @@
 @media (max-width: 767px) {
   .dropdownItems {
     flex-direction: column;
+  }
+  .dropdownItems .item {
+    margin-bottom: 30px;
   }
 }

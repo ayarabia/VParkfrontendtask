@@ -3,14 +3,30 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  background-color: #f6f8fe;
+   margin-bottom: 15px;
 }
+.dropdown .image {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 500;
+  color: #0c1834;
+}
+
+.dropdown .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
 .menu {
   width: 100%;
   z-index: 9999;
-  position: absolute;
-  top: 88px;
-  right: 25px;
+  position: relative;
+  top: -15px;
+  right: 0px;
   padding: 10px 0;
   background-color: #f6f8fe;
 }
@@ -18,9 +34,9 @@
   margin-top: 1px;
   transform: rotate(180deg);
 }
-@media (max-width: 767px) {
-  .menu {
-    top: 69px;
-    right: 0;
+
+@media (max-width:767px) {
+  .image p{
+    font-size: 15px;
   }
 }

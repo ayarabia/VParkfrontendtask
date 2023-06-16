@@ -5,12 +5,6 @@ import img2 from "../../assets/images/img2.svg";
 import "./style.css";
 import Dropdown from "../dropdown";
 function VParkFleet() {
-  const [showMenu, setShowMenu] = useState(false);
-
-  const handlClick = (e) => {
-    // e.stopPropagation();
-    setShowMenu(!showMenu);
-  };
   const vehicles = [
     {
       image: vehicle,
@@ -50,20 +44,12 @@ function VParkFleet() {
 
       {vehicles.map((item) => {
         return (
-          <div className="item" key={item.title} onClick={handlClick}>
-            <div className="image">
-              <img src={item.image} alt={item.image} />
-              <div className="circle" style={{ background: item.color }}></div>
-              <p>Smart Vehicle 1</p>
-            </div>
-            <div className="dropdown">
-              <Dropdown></Dropdown>
-            </div>
+          <div key={item.title}>
+            <Dropdown img={item.image} color={item.color}></Dropdown>
           </div>
         );
       })}
     </div>
   );
 }
-
 export default VParkFleet;

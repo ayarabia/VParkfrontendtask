@@ -30,7 +30,6 @@
   object-fit: cover;
   height: 200px;
 }
-/* Medium */
 @media (max-width: 767px) {
   .tools-container {
     padding: 5px 30px;
@@ -41,5 +40,8 @@
   }
   .tools-container img {
     display: none;
+  }
+  .tools-container p{
+    color: gainsboro;
   }
 }

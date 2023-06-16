@@ -24,6 +24,9 @@ function Home() {
   return (
     <div className="home">
       <p className="titel">Welcome! John Doe</p>
+      <div className="ellips">
+          <div className="dot"></div>
+      </div>
       <div className="home-container">
         <VParkFleet />
         <ActiveVehicles />

@@ -31,7 +31,7 @@ function VehicleFeatures() {
     <div className="features">
       {features.map((item) => {
         return (
-          <div className="item">
+          <div className="item" key={item.title}>
             <img src={item.image} alt={item.image} />
             <h4>{item.title}</h4>
             <p>{item.subTitel}</p>

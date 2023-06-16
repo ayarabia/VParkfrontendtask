@@ -67,7 +67,7 @@
   white-space: nowrap;
   overflow: hidden;
 }
-@media (max-width: 767) {
+@media (max-width: 767px) {
   .charts {
     flex-direction: column;
   }

@@ -1,5 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import camera from "../../assets/images/camera.svg";
+import network from "../../assets/images/network.svg";
+import memory from "../../assets/images/memory.svg";
+import cpu from "../../assets/images/cpu.svg";
 import "./style.css";
 function DropdownItems() {
   let bg = "";
@@ -26,19 +29,19 @@ function DropdownItems() {
       status: "Active",
     },
     {
-      image: camera,
+      image: network,
       subTitel: "Network",
       title: "Available",
       status: "Active",
     },
     {
-      image: camera,
+      image: memory,
       subTitel: "Memory",
       title: "20%",
       status: "Normal",
     },
     {
-      image: camera,
+      image: cpu,
       subTitel: "CPU Temp",
       title: "70",
       status: "High",

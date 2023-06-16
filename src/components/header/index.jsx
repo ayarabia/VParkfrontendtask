@@ -3,10 +3,12 @@ import { AiOutlineSearch, AiOutlineMenu } from "react-icons/ai";
 import { TbWorld } from "react-icons/tb";
 import { BiBell } from "react-icons/bi";
 import avater from "../../assets/images/avatar.png";
+import logo from "../../assets/images/logo.png";
 import "./style.css";
 import DropdownIcon from "../dropdown-icon";
 import Notification from "../notification";
 import User from "../User";
+
 function Header() {
   const [showNotfication, setNotfication] = useState(false);
   const [showinfo, setInfo] = useState(false);
@@ -19,15 +21,17 @@ function Header() {
   };
   return (
     <div className="header">
-      <div>
+      <div className="logo">
+        <img src={logo} alt="logo" />
         <h1 className="logo">Logo</h1>
+    
       </div>
       <div className="header-menu">
         <AiOutlineMenu />
       </div>
       <div className="wrapper">
         <div className="search">
-          <input type="search" name="search" placeholder="Search" />
+          <input type="text" name="search" placeholder="Search" />
           <AiOutlineSearch />
         </div>
         <div className="setting">
